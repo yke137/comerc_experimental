@@ -1,0 +1,94 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 90px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 90px;
+  font-family: 'NeoSansStdRegular','Ropa Sans', sans-serif;
+
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 100%;
+  padding: 0 0px;
+  color:#606060;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+
+@media (min-width: 298px) {
+  .bloco_rss {
+    padding: 10px 20px 10px 20px; 
+    background-color: #e9ecff;
+    line-height: 1em;
+    min-height: 200px;
+  }
+  .bloco_rss h4{
+    color: #7485f6;
+  }
+  .bloco_rss p{
+    color: #7b7e95;
+  }
+}
+
+
+@media (min-width: 1200px) {
+
+  .bloco {padding: 30px 0px 0px 35px; min-height: 300px; border: red solid 0px;}
+
+  .bloco_rss {
+    padding: 10px 20px 10px 20px;
+    min-height: 300px;
+    border: solid 0px;
+    background-color: #e9ecff;
+  }
+  .bloco_rss h4{
+    color: #7485f6;
+  }
+  .bloco_rss p{
+    color: #7b7e95;
+  }
+
+ .container_bloco_rss{
+  margin: 0px 35px 30px 0px;
+  max-width:45%;
+  float: left;
+  border: 0px green solid;
+}
+
+}button.veja-mais-home {
+   font-family: 'NeoSansStdBold','Ropa Sans', sans-serif;
+    font-size: 0.971em;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #abb6ff;
+    text-align: left;
+    vertical-align: top;
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px;
+  }
